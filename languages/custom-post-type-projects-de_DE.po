@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Custom Post Type Projects v1.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-14 13:38:50+0000\n"
+"Last-Translator: horttcore <me@horttcore.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-Country: GERMANY\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: classes/custom-post-type-projects.admin.php:55
+#: classes/custom-post-type-projects.admin.php:58
+#@ custom-post-type-projects
+msgid "Project updated."
+msgstr "Projekt aktualisiert."
+
+#: classes/custom-post-type-projects.admin.php:56
+#@ default
+msgid "Custom field updated."
+msgstr ""
+
+#: classes/custom-post-type-projects.admin.php:57
+#@ default
+msgid "Custom field deleted."
+msgstr ""
+
+#: classes/custom-post-type-projects.admin.php:59
+#, php-format
+#@ custom-post-type-projects
+msgid "Project restored to revision from %s"
+msgstr "Projekt aus Überarbeitung vom %s wiederhergestellt"
+
+#: classes/custom-post-type-projects.admin.php:60
+#@ custom-post-type-projects
+msgid "Project published."
+msgstr "Projekt veröffentlicht."
+
+#: classes/custom-post-type-projects.admin.php:61
+#@ custom-post-type-projects
+msgid "Project saved."
+msgstr "Projekt gespeichert."
+
+#: classes/custom-post-type-projects.admin.php:62
+#@ custom-post-type-projects
+msgid "Project submitted."
+msgstr "Projekt übertragen."
+
+#: classes/custom-post-type-projects.admin.php:63
+#, php-format
+#@ custom-post-type-projects
+msgid "Project scheduled for: <strong>%1$s</strong>."
+msgstr "Veröffentlichung geplant für: <strong>%1$s</strong>."
+
+#: classes/custom-post-type-projects.admin.php:63
+#@ custom-post-type-projects
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/custom-post-type-projects.admin.php:64
+#@ custom-post-type-projects
+msgid "Project draft updated."
+msgstr "Der Projectentwurf wurde aktualisiert."
+
+#: classes/custom-post-type-projects.admin.php:71
+#@ custom-post-type-projects
+msgid "View project"
+msgstr "Projekt ansehen"
+
+#: classes/custom-post-type-projects.admin.php:77
+#@ custom-post-type-projects
+msgid "Preview project"
+msgstr "Projektvorschau"
+
+#: classes/custom-post-type-projects.php:67
+#@ custom-post-type-projects
+msgctxt "post type general name"
+msgid "Projects"
+msgstr "Projekte"
+
+#: classes/custom-post-type-projects.php:68
+#@ custom-post-type-projects
+msgctxt "post type singular name"
+msgid "Project"
+msgstr "Projekt"
+
+#: classes/custom-post-type-projects.php:69
+#@ custom-post-type-projects
+msgctxt "Project"
+msgid "Add New"
+msgstr "Erstellen"
+
+#: classes/custom-post-type-projects.php:70
+#@ custom-post-type-projects
+msgid "Add New Project"
+msgstr "Neues Projekt erstellen"
+
+#: classes/custom-post-type-projects.php:71
+#@ custom-post-type-projects
+msgid "Edit Project"
+msgstr "Projekt bearbeiten"
+
+#: classes/custom-post-type-projects.php:72
+#@ custom-post-type-projects
+msgid "New Project"
+msgstr "Neues Projekt"
+
+#: classes/custom-post-type-projects.php:73
+#@ custom-post-type-projects
+msgid "View Project"
+msgstr "Projekt ansehen"
+
+#: classes/custom-post-type-projects.php:74
+#@ custom-post-type-projects
+msgid "Search Projects"
+msgstr "Projekte durchsuchen"
+
+#: classes/custom-post-type-projects.php:75
+#@ custom-post-type-projects
+msgid "No Projects found"
+msgstr "Keine Projekte gefunden"
+
+#: classes/custom-post-type-projects.php:76
+#@ custom-post-type-projects
+msgid "No Projects found in Trash"
+msgstr "Keine Projekte im Papierkorb gefunden"
+
+#: classes/custom-post-type-projects.php:78
+#@ custom-post-type-projects
+msgid "Projects"
+msgstr "Projekte"
+
+#: classes/custom-post-type-projects.php:85
+#@ custom-post-type-projects
+msgctxt "post type slug"
+msgid "projects"
+msgstr "projekte"
+
+#. translators: plugin header field 'Name'
+#: plugin.php:0
+#@ custom-post-type-projects
+msgid "Custom Post Type Projects"
+msgstr "Custom Post Type Projekte"
+
+#. translators: plugin header field 'PluginURI'
+#. translators: plugin header field 'AuthorURI'
+#: plugin.php:0
+#@ custom-post-type-projects
+msgid "http://horttcore.de"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: plugin.php:0
+#@ custom-post-type-projects
+msgid "Manage projects"
+msgstr "Projekte verwalten"
+
+#. translators: plugin header field 'Author'
+#: plugin.php:0
+#@ custom-post-type-projects
+msgid "Ralf Hortt"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: plugin.php:0
+#@ custom-post-type-projects
+msgid "1.1.0"
+msgstr ""
+
