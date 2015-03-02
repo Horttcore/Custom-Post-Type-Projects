@@ -32,7 +32,7 @@ final class Custom_Post_Type_Project
 		add_action( 'init', array( $this, 'register_post_type' ) );
 		add_action( 'plugins_loaded', array( $this, 'load_plugin_textdomain' ) );
 
-	} // end __construct
+	} // END __construct
 
 
 
@@ -48,7 +48,7 @@ final class Custom_Post_Type_Project
 
 		load_plugin_textdomain( 'custom-post-type-projects', false, dirname( plugin_basename( __FILE__ ) ) . '/../languages/'  );
 
-	} // end load_plugin_textdomain
+	} // END load_plugin_textdomain
 
 
 
@@ -91,10 +91,45 @@ final class Custom_Post_Type_Project
 			'supports' => array( 'title', 'editor', 'author', 'thumbnail', 'excerpt', 'custom-fields' )
 		) );
 
-	} // end register_post_type
+	} // END register_post_type
 
 
 
-} // end Custom_Post_Type_Project
+	/**
+	 * Register taxonomy
+	 *
+	 * @access public
+	 * @since 1.2.0
+	 * @author Ralf Hortt
+	 */
+	public function register_taxonomy()
+	{
+
+		register_taxonomy( 'project-category', array( 'project' ), array(
+			'hierarchical' => TRUE,
+			'labels' => array(
+				'name' => _x( 'Project Categories', 'taxonomy general name', 'custom-post-type-projects' ),
+				'singular_name' => _x( 'Project Category', 'taxonomy singular name', 'custom-post-type-projects' ),
+				'search_items' =>  __( 'Search Project Categories', 'custom-post-type-projects' ),
+				'all_items' => __( 'All Project Categories', 'custom-post-type-projects' ),
+				'parent_item' => __( 'Parent Project Category', 'custom-post-type-projects' ),
+				'parent_item_colon' => __( 'Parent Project Category:', 'custom-post-type-projects' ),
+				'edit_item' => __( 'Edit Project Category', 'custom-post-type-projects' ),
+				'update_item' => __( 'Update Project Category', 'custom-post-type-projects' ),
+				'add_new_item' => __( 'Add New Project Category', 'custom-post-type-projects' ),
+				'new_item_name' => __( 'New Project Category Name', 'custom-post-type-projects' ),
+				'menu_name' => __( 'Project Categories', 'custom-post-type-projects' ),
+			),
+			'show_ui' => TRUE,
+			'query_var' => TRUE,
+			'rewrite' => array( 'slug' => _x( 'project-category', 'Project Category Slug', 'custom-post-type-projects' ) ),
+			'show_admin_column' => TRUE,
+		));
+
+	} // END register_taxonomy
+
+
+
+} // END Custom_Post_Type_Project
 
 new Custom_Post_Type_Project;

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Custom Post Type Projects v1.1.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2015-01-14 13:38:50+0000\n"
+"PO-Revision-Date: 2015-03-02 21:13:32+0000\n"
 "Last-Translator: horttcore <me@horttcore.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -177,4 +177,67 @@ msgstr ""
 #@ custom-post-type-projects
 msgid "1.1.0"
 msgstr ""
+
+#: classes/custom-post-type-projects.php:111
+#@ custom-post-type-projects
+msgctxt "taxonomy general name"
+msgid "Project Categories"
+msgstr ""
+
+#: classes/custom-post-type-projects.php:112
+#@ custom-post-type-projects
+msgctxt "taxonomy singular name"
+msgid "Project Category"
+msgstr ""
+
+#: classes/custom-post-type-projects.php:113
+#@ custom-post-type-projects
+msgid "Search Project Categories"
+msgstr "Projekt Kategorie suchen"
+
+#: classes/custom-post-type-projects.php:114
+#@ custom-post-type-projects
+msgid "All Project Categories"
+msgstr "Alle Projekt Kategorien"
+
+#: classes/custom-post-type-projects.php:115
+#@ custom-post-type-projects
+msgid "Parent Project Category"
+msgstr "Übergeordnete Projekt Kategorie"
+
+#: classes/custom-post-type-projects.php:116
+#@ custom-post-type-projects
+msgid "Parent Project Category:"
+msgstr "Übergeordnete Projekt Kategorie:"
+
+#: classes/custom-post-type-projects.php:117
+#@ custom-post-type-projects
+msgid "Edit Project Category"
+msgstr "Projekt Kategorie bearbeiten"
+
+#: classes/custom-post-type-projects.php:118
+#@ custom-post-type-projects
+msgid "Update Project Category"
+msgstr "Projekt Kategorie aktualisieren"
+
+#: classes/custom-post-type-projects.php:119
+#@ custom-post-type-projects
+msgid "Add New Project Category"
+msgstr "Neue Projekt Kategorie erstellen"
+
+#: classes/custom-post-type-projects.php:120
+#@ custom-post-type-projects
+msgid "New Project Category Name"
+msgstr "Neuer Projekt Kategoriename"
+
+#: classes/custom-post-type-projects.php:121
+#@ custom-post-type-projects
+msgid "Project Categories"
+msgstr "Projekt Kategorien"
+
+#: classes/custom-post-type-projects.php:125
+#@ custom-post-type-projects
+msgctxt "Project Category Slug"
+msgid "project-category"
+msgstr "projekt-kategorie"
 
